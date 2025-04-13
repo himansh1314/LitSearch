@@ -1,0 +1,2466 @@
+[
+  {
+    "line_num": 1,
+    "query": "Are there any research papers on methods to compress large-scale language models using task-agnostic knowledge distillation techniques?",
+    "corpus_ids": [
+      202719327
+    ],
+    "top_5_retrieved": [
+      221995575,
+      257038997,
+      248780060,
+      237563200,
+      252819437
+    ]
+  },
+  {
+    "line_num": 4,
+    "query": "Are there any tools or studies that have focused on building a morphological analyzer specifically for handling multiple Arabic dialects?",
+    "corpus_ids": [
+      10961392,
+      12160022
+    ],
+    "top_5_retrieved": [
+      9225732,
+      11319902,
+      7859600,
+      262349699,
+      5797224
+    ]
+  },
+  {
+    "line_num": 5,
+    "query": "Are there papers that propose contextualized calibration for the probability of answers in language models?",
+    "corpus_ids": [
+      233296182
+    ],
+    "top_5_retrieved": [
+      235313893,
+      253244504,
+      258967945,
+      212747810,
+      250551977
+    ]
+  },
+  {
+    "line_num": 11,
+    "query": "Can you point me to a work that uses diagnostic tools to detect depression from online posts, and investigates strategies that address common temporal and topical artifacts that plague these models?",
+    "corpus_ids": [
+      226283450
+    ],
+    "top_5_retrieved": [
+      53579036,
+      16504570,
+      32436585,
+      605706,
+      248426722
+    ]
+  },
+  {
+    "line_num": 12,
+    "query": "Can you point me to studies discussing methods for evaluating text generation models on various dimensions? I'm particularly interested in models like T5 and FLAN-T5, and how to assess their performance on summary-level and turn-level tasks.",
+    "corpus_ids": [
+      252873117
+    ],
+    "top_5_retrieved": [
+      259370824,
+      233219059,
+      258841681,
+      57373775,
+      258960565
+    ]
+  },
+  {
+    "line_num": 16,
+    "query": "Can you recommend a conversational QA dataset where the human questioner does not have access to the evidence passage to simulate a more real-world information-seeking environment?",
+    "corpus_ids": [
+      52057510
+    ],
+    "top_5_retrieved": [
+      52055325,
+      218487043,
+      253098861,
+      245218415,
+      236460249
+    ]
+  },
+  {
+    "line_num": 18,
+    "query": "Can you recommend a paper that uses an NLI model for sentence-level relation extraction using hypothesis generation and verification with entity-type constraints?",
+    "corpus_ids": [
+      237442211
+    ],
+    "top_5_retrieved": [
+      254926860,
+      17034927,
+      237386548,
+      249301181,
+      174800751
+    ]
+  },
+  {
+    "line_num": 19,
+    "query": "Can you recommend some literature that focuses on dependency-based models for relation extraction, especially those that utilize dependency parsing to capture non-local syntactic relations?",
+    "corpus_ids": [
+      5403702,
+      1774259,
+      2476229,
+      52115592
+    ],
+    "top_5_retrieved": [
+      49544037,
+      236460104,
+      248780393,
+      13205080,
+      190001673
+    ]
+  },
+  {
+    "line_num": 24,
+    "query": "Can you suggest literature on enhanced semantic parsing methods that focus on generating high-quality meaning representations and utilize knowledge-constrained decoding under specific grammar rules?",
+    "corpus_ids": [
+      16911296,
+      1675452,
+      12718048
+    ],
+    "top_5_retrieved": [
+      236477930,
+      196187342,
+      236486248,
+      61982581,
+      235417352
+    ]
+  },
+  {
+    "line_num": 25,
+    "query": "Can you suggest recent studies that have integrated prompt fine-tuning into semi-supervised learning workflows for natural language understanding tasks?",
+    "corpus_ids": [
+      210838924
+    ],
+    "top_5_retrieved": [
+      257038347,
+      233296808,
+      239016577,
+      252918040,
+      237452236
+    ]
+  },
+  {
+    "line_num": 31,
+    "query": "Could you point me to studies that have investigated dialectal variations and normalized text in non-Latin scripts, such as Arabic or Japanese?",
+    "corpus_ids": [
+      198918735,
+      218974489
+    ],
+    "top_5_retrieved": [
+      6388857,
+      227231049,
+      13554714,
+      21714084,
+      52160556
+    ]
+  },
+  {
+    "line_num": 36,
+    "query": "Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+    "corpus_ids": [
+      3033526
+    ],
+    "top_5_retrieved": [
+      220047189,
+      2476229,
+      53081673,
+      44155628,
+      49544037
+    ]
+  },
+  {
+    "line_num": 40,
+    "query": "I am looking for research that has explored topic and frame conditioning in transformer language models to enhance the quality of generated argument claims. Is there a paper discussing this approach?",
+    "corpus_ids": [
+      218470025
+    ],
+    "top_5_retrieved": [
+      253100679,
+      222310755,
+      232403983,
+      252089320,
+      243865641
+    ]
+  },
+  {
+    "line_num": 42,
+    "query": "I would like to understand the theoretical basis for using the nuclear norm of a weight matrix as a measure of complexity in linear models for probing tasks. Which paper should I refer to?",
+    "corpus_ids": [
+      215238965
+    ],
+    "top_5_retrieved": [
+      222134121,
+      233181831,
+      235097306,
+      202538609,
+      9794990
+    ]
+  },
+  {
+    "line_num": 45,
+    "query": "I'm exploring research that utilizes large datasets for the task of sentence simplification. Are there any prominent datasets sourced from Wikipedia that I could look into?",
+    "corpus_ids": [
+      7473831
+    ],
+    "top_5_retrieved": [
+      9128245,
+      4896510,
+      258967312,
+      202888665,
+      15636533
+    ]
+  },
+  {
+    "line_num": 50,
+    "query": "I'm looking for innovative approaches to data annotation on platforms like Amazon Mechanical Turk that focus on maximizing document coverage. Is there any research discussing strategies that balance the trade-off between full annotation and broader document coverage?",
+    "corpus_ids": [
+      174800300
+    ],
+    "top_5_retrieved": [
+      253098240,
+      248084905,
+      49534653,
+      256868350,
+      11985819
+    ]
+  },
+  {
+    "line_num": 56,
+    "query": "In discourse parsing literature, which works have explored parser performance by adopting the original Parseval procedure and reporting micro-averaged F1 scores?",
+    "corpus_ids": [
+      218516743
+    ],
+    "top_5_retrieved": [
+      20110212,
+      514191,
+      13017935,
+      15833184,
+      12255956
+    ]
+  },
+  {
+    "line_num": 57,
+    "query": "In researching metrics for human-interaction with computer-assisted translation tools, which studies have analyzed parameters such as the keystroke ratio and mouse action ratio to quantify user effort or engagement?",
+    "corpus_ids": [
+      16308735,
+      92327
+    ],
+    "top_5_retrieved": [
+      237010903,
+      2937876,
+      9792578,
+      8283344,
+      252186410
+    ]
+  },
+  {
+    "line_num": 59,
+    "query": "In the context of Named Entity Recognition tasks across multiple languages, which work highlights the necessity of retrieving related knowledge to aid in the annotation of ambiguous named entities?",
+    "corpus_ids": [
+      202540591
+    ],
+    "top_5_retrieved": [
+      247187671,
+      10129485,
+      8469161,
+      53603385,
+      8783027
+    ]
+  },
+  {
+    "line_num": 60,
+    "query": "In the context of machine translation, can you point me towards literature discussing the specifications for setting up encoder/decoder layers, attention heads, and other hyperparameters for a neural network model?",
+    "corpus_ids": [
+      216144650
+    ],
+    "top_5_retrieved": [
+      51880415,
+      2201909,
+      196181767,
+      3988816,
+      162183964
+    ]
+  },
+  {
+    "line_num": 62,
+    "query": "In the context of simultaneous machine translation, which tool or technique could I use to generate ground-truth alignments for training models to interpret and generate translations incrementally?",
+    "corpus_ids": [
+      8476273
+    ],
+    "top_5_retrieved": [
+      248780304,
+      44182777,
+      219124176,
+      231704317,
+      237604955
+    ]
+  },
+  {
+    "line_num": 63,
+    "query": "In the field of reinforcement learning models for multi-hop reasoning, what issue involves an agent erroneously correlating a successful outcome with irrelevant or coincidental actions, and are there any papers discussing this phenomenon?",
+    "corpus_ids": [
+      9268430
+    ],
+    "top_5_retrieved": [
+      258378173,
+      208857488,
+      52143467,
+      222133021,
+      257426979
+    ]
+  },
+  {
+    "line_num": 64,
+    "query": "What approaches have been used to address the limitations of the beam search method in neural machine translation systems in terms of considering the full target context?",
+    "corpus_ids": [
+      236460293,
+      201058550
+    ],
+    "top_5_retrieved": [
+      227230690,
+      52118537,
+      51868236,
+      11212020,
+      260449054
+    ]
+  },
+  {
+    "line_num": 68,
+    "query": "What are some recent advancements in training systems to parse complex multi-hop questions into a sequence of simpler query steps for improved question answering?",
+    "corpus_ids": [
+      211003735
+    ],
+    "top_5_retrieved": [
+      211258744,
+      211258645,
+      3986974,
+      174801080,
+      251718892
+    ]
+  },
+  {
+    "line_num": 72,
+    "query": "What are the recent developments in evaluating the flow or 'streaming degree' of the translation processes in simultaneous machine translation (SiMT), and which metric has proven useful for this purpose?",
+    "corpus_ids": [
+      2782776
+    ],
+    "top_5_retrieved": [
+      247244911,
+      247519155,
+      253553349,
+      247518546,
+      220060300
+    ]
+  },
+  {
+    "line_num": 76,
+    "query": "What research could I reference to understand the methodology for binarizing non-binary subtrees in the context of discourse parsing?",
+    "corpus_ids": [
+      173611
+    ],
+    "top_5_retrieved": [
+      7788730,
+      18599816,
+      514191,
+      16414840,
+      989542
+    ]
+  },
+  {
+    "line_num": 83,
+    "query": "Where can I find a discourse treebank tailored to Chinese newswire articles that's large enough to make training, development, and test splits?",
+    "corpus_ids": [
+      1781329
+    ],
+    "top_5_retrieved": [
+      5584533,
+      252992779,
+      21684816,
+      52011355,
+      47021747
+    ]
+  },
+  {
+    "line_num": 85,
+    "query": "Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+    "corpus_ids": [
+      12360898
+    ],
+    "top_5_retrieved": [
+      222141483,
+      4324024,
+      10162234,
+      14915669,
+      6543834
+    ]
+  },
+  {
+    "line_num": 93,
+    "query": "Where might I find research on the evaluation of consistency in generated summaries?",
+    "corpus_ids": [
+      244345901,
+      237507028
+    ],
+    "top_5_retrieved": [
+      12435114,
+      204976362,
+      245218667,
+      258999861,
+      233210362
+    ]
+  },
+  {
+    "line_num": 102,
+    "query": "Are there any research papers investigating the improvement of radiology report summarization through the application of graph neural networks in conjunction with biomedical entity extraction?",
+    "corpus_ids": [
+      236477655
+    ],
+    "top_5_retrieved": [
+      247922414,
+      236179518,
+      247476265,
+      222310577,
+      259376823
+    ]
+  },
+  {
+    "line_num": 104,
+    "query": "Are there any studies investigating sentiment analysis through text-to-graph conversion models that incorporate contextual embeddings?",
+    "corpus_ids": [
+      247628083
+    ],
+    "top_5_retrieved": [
+      227231602,
+      252819166,
+      256461262,
+      202537499,
+      17221740
+    ]
+  },
+  {
+    "line_num": 105,
+    "query": "Are there any studies on incorporating external commonsense knowledge into conversational models to enhance emotional support?",
+    "corpus_ids": [
+      247748640
+    ],
+    "top_5_retrieved": [
+      235294326,
+      52281610,
+      202734183,
+      239016123,
+      202558451
+    ]
+  },
+  {
+    "line_num": 110,
+    "query": "Can you recommend research that uses an LLM to generate better prompts/tempates given task input/output?",
+    "corpus_ids": [
+      229923710
+    ],
+    "top_5_retrieved": [
+      258041372,
+      252716013,
+      253265328,
+      241033259,
+      258557267
+    ]
+  },
+  {
+    "line_num": 111,
+    "query": "Can you show me a paper that built a large structured knowledge base from wikipedia, that can then be used for entity linking and ranking tasks?",
+    "corpus_ids": [
+      221507798
+    ],
+    "top_5_retrieved": [
+      8783027,
+      5815755,
+      10824175,
+      10640473,
+      11849519
+    ]
+  },
+  {
+    "line_num": 112,
+    "query": "Can you suggest research that deals with the multiple input sources in clinical text processing by combining several recurrent modules which are each responsible for a single source of information?",
+    "corpus_ids": [
+      235097235
+    ],
+    "top_5_retrieved": [
+      256461061,
+      233365063,
+      53081052,
+      259376772,
+      53176182
+    ]
+  },
+  {
+    "line_num": 114,
+    "query": "Could you direct me to studies investigating the enhancement of bi-encoder text matching performance through the application of knowledge distillation methods?",
+    "corpus_ids": [
+      244954670,
+      256461055
+    ],
+    "top_5_retrieved": [
+      235720578,
+      259370551,
+      256461166,
+      234482764,
+      237250417
+    ]
+  },
+  {
+    "line_num": 120,
+    "query": "Could you recommend a study that examines how incorporating external commonsense knowledge into conversational agents can better interpret user emotions and refine their response formulation techniques?",
+    "corpus_ids": [
+      247748640
+    ],
+    "top_5_retrieved": [
+      202734183,
+      202558451,
+      6785724,
+      235485037,
+      90261373
+    ]
+  },
+  {
+    "line_num": 121,
+    "query": "Could you recommend a study that examines the intricacies of few-shot relation extraction challenges and introduces an approach integrating both global and local attributes alongside external descriptions of relations?",
+    "corpus_ids": [
+      237492043
+    ],
+    "top_5_retrieved": [
+      243865653,
+      221836081,
+      237100869,
+      2204967,
+      218537892
+    ]
+  },
+  {
+    "line_num": 124,
+    "query": "Could you recommend a study that explores how language models are not robust to the surface form editing when testing commonsense knowledge?",
+    "corpus_ids": [
+      236318140
+    ],
+    "top_5_retrieved": [
+      253244266,
+      221865854,
+      236478307,
+      233296182,
+      237940293
+    ]
+  },
+  {
+    "line_num": 125,
+    "query": "Could you recommend a study that explores mitigating bias in natural language understanding via example reweighting?",
+    "corpus_ids": [
+      236477370
+    ],
+    "top_5_retrieved": [
+      215191351,
+      190000105,
+      259342087,
+      247694107,
+      253157517
+    ]
+  },
+  {
+    "line_num": 127,
+    "query": "Could you recommend a study that explores the difficulties in creating shared multilingual vocabularies, especially focusing on the problem of over segmentation in low-resource languages?",
+    "corpus_ids": [
+      232233194
+    ],
+    "top_5_retrieved": [
+      241583348,
+      250406875,
+      14784553,
+      222327390,
+      227231238
+    ]
+  },
+  {
+    "line_num": 129,
+    "query": "Could you recommend a study that initializes embeddings in multilingual transformer for subwords common with original vocabulary with original embeddings?",
+    "corpus_ids": [
+      248721770
+    ],
+    "top_5_retrieved": [
+      204901567,
+      245124270,
+      204008396,
+      225062494,
+      207924237
+    ]
+  },
+  {
+    "line_num": 133,
+    "query": "Could you recommend a study that investigates enhancing token alignment in speech processing by employing inverse document frequency (idf)?",
+    "corpus_ids": [
+      235097520
+    ],
+    "top_5_retrieved": [
+      8692961,
+      1715048,
+      981985,
+      7041620,
+      3543642
+    ]
+  },
+  {
+    "line_num": 135,
+    "query": "Could you recommend a study that investigates guiding abstractive summarization through assessing sentence informativeness?",
+    "corpus_ids": [
+      253098395
+    ],
+    "top_5_retrieved": [
+      5499666,
+      52012819,
+      203610250,
+      31703928,
+      44174597
+    ]
+  },
+  {
+    "line_num": 136,
+    "query": "Could you recommend a study that investigates how a subset with clean, annotated datasets improve denoising methods?",
+    "corpus_ids": [
+      235421599
+    ],
+    "top_5_retrieved": [
+      15399557,
+      237416552,
+      34415374,
+      85543399,
+      213488539
+    ]
+  },
+  {
+    "line_num": 137,
+    "query": "Could you recommend a study that investigates how contrastive learning enhances sentence-level embeddings in natural language processing, especially for subsequent applications?",
+    "corpus_ids": [
+      233289620
+    ],
+    "top_5_retrieved": [
+      252847570,
+      235422673,
+      240288762,
+      237491619,
+      233296292
+    ]
+  },
+  {
+    "line_num": 138,
+    "query": "Could you recommend a study that investigates how integrating model quantization with knowledge distillation?",
+    "corpus_ids": [
+      229923538
+    ],
+    "top_5_retrieved": [
+      3323727,
+      253735201,
+      3643430,
+      256461337,
+      247741658
+    ]
+  },
+  {
+    "line_num": 143,
+    "query": "Could you recommend a study that investigates the implementation of sparsity within attention mechanisms to enhance the performance of models processing extremely lengthy documents?",
+    "corpus_ids": [
+      234334398
+    ],
+    "top_5_retrieved": [
+      247292845,
+      225067971,
+      207847640,
+      237940880,
+      27970287
+    ]
+  },
+  {
+    "line_num": 144,
+    "query": "Could you recommend a study that investigates the improvement of knowledge representation learning by incorporating global context into graph attention networks?",
+    "corpus_ids": [
+      236477489
+    ],
+    "top_5_retrieved": [
+      252819323,
+      208527419,
+      239016943,
+      225062808,
+      259370784
+    ]
+  },
+  {
+    "line_num": 146,
+    "query": "Could you recommend a study that uses feedback-driven decoding for producing mathematical proofs using language models?",
+    "corpus_ids": [
+      249062748
+    ],
+    "top_5_retrieved": [
+      246485695,
+      231879554,
+      253098549,
+      257038305,
+      263334074
+    ]
+  },
+  {
+    "line_num": 148,
+    "query": "Could you recommend research articles that explore the application of contrastive learning methods to improve sentence embedding efficacy in natural language processing?",
+    "corpus_ids": [
+      235187266
+    ],
+    "top_5_retrieved": [
+      235422673,
+      252847570,
+      240288762,
+      259370776,
+      237491619
+    ]
+  },
+  {
+    "line_num": 150,
+    "query": "Could you recommend research papers that investigate employing Transformer-based architectures for completing knowledge graphs?",
+    "corpus_ids": [
+      221703752
+    ],
+    "top_5_retrieved": [
+      221376974,
+      256461412,
+      227231162,
+      140116781,
+      221090697
+    ]
+  },
+  {
+    "line_num": 153,
+    "query": "Could you recommend research that assesses how well large language models, such as GPT-3, perform at coreference resolution when tested in a few-shot learning context?",
+    "corpus_ids": [
+      249062918
+    ],
+    "top_5_retrieved": [
+      248780307,
+      258437068,
+      221703107,
+      229923710,
+      241583458
+    ]
+  },
+  {
+    "line_num": 156,
+    "query": "Could you recommend research that evaluates the performance decline in various language models, like BLOOM, under 4-bit integer columnar weight-only quantization?",
+    "corpus_ids": [
+      247519241
+    ],
+    "top_5_retrieved": [
+      259370840,
+      256826766,
+      263333921,
+      263152476,
+      247593909
+    ]
+  },
+  {
+    "line_num": 158,
+    "query": "Could you recommend research that examines how decoding strategies like top-k impact hallucinatory in generated text?",
+    "corpus_ids": [
+      233296059
+    ],
+    "top_5_retrieved": [
+      207852724,
+      253097869,
+      218487034,
+      226254579,
+      247476018
+    ]
+  },
+  {
+    "line_num": 159,
+    "query": "Could you recommend research that examines how multihead attention networks discern word interrelations in news content for detecting political perspectives?",
+    "corpus_ids": [
+      236478070
+    ],
+    "top_5_retrieved": [
+      235097622,
+      52183735,
+      196180578,
+      252819262,
+      53222920
+    ]
+  },
+  {
+    "line_num": 162,
+    "query": "Could you recommend research that examines the challenges faced by pre-trained language models in learning inferential commonsense knowledge when the context is sparse?",
+    "corpus_ids": [
+      236478307
+    ],
+    "top_5_retrieved": [
+      253244266,
+      203642057,
+      235592830,
+      221865854,
+      245218685
+    ]
+  },
+  {
+    "line_num": 164,
+    "query": "Could you recommend research that explores how the loss of spatial information impacts the effectiveness of global features in visual tasks?",
+    "corpus_ids": [
+      248118561
+    ],
+    "top_5_retrieved": [
+      1786876,
+      3115914,
+      14082107,
+      174797767,
+      210861275
+    ]
+  },
+  {
+    "line_num": 166,
+    "query": "Could you recommend research that has introduced a dual-phase method for sentence paraphrasing?",
+    "corpus_ids": [
+      236477430
+    ],
+    "top_5_retrieved": [
+      218900918,
+      6982885,
+      219309700,
+      15963412,
+      14503646
+    ]
+  },
+  {
+    "line_num": 167,
+    "query": "Could you recommend research that improves knowledge base generation using non-differentiable evaluation metrics like BLEU, METEOR, and chrF++?",
+    "corpus_ids": [
+      237353321
+    ],
+    "top_5_retrieved": [
+      15971789,
+      221856687,
+      52134966,
+      186206216,
+      250391085
+    ]
+  },
+  {
+    "line_num": 168,
+    "query": "Could you recommend research that introduces a metric for assessing Text-to-Image synthesis, emphasizing the semantic congruence between the text and the produced image rather than solely the visual quality?",
+    "corpus_ids": [
+      233296711
+    ],
+    "top_5_retrieved": [
+      202537622,
+      15422356,
+      235097275,
+      226283802,
+      53598310
+    ]
+  },
+  {
+    "line_num": 169,
+    "query": "Could you recommend research that investigates applying conventional data augmentation methods such as removing words and truncating sequences to contrastive learning in NLP applications?",
+    "corpus_ids": [
+      236460287
+    ],
+    "top_5_retrieved": [
+      248227429,
+      237491889,
+      224726548,
+      253107551,
+      248227350
+    ]
+  },
+  {
+    "line_num": 170,
+    "query": "Could you recommend research that investigates generative modeling approaches for event extraction, specifically focusing on leveraging large pre-trained language models to reduce the complexity of template engineering?",
+    "corpus_ids": [
+      235458429
+    ],
+    "top_5_retrieved": [
+      257154221,
+      224804104,
+      235097664,
+      259187807,
+      259370619
+    ]
+  },
+  {
+    "line_num": 174,
+    "query": "Could you recommend research that investigates methods for fine-tuning generative language models with a focus on parameter efficiency to reduce computational demands?",
+    "corpus_ids": [
+      230433941
+    ],
+    "top_5_retrieved": [
+      256460956,
+      238583580,
+      259833855,
+      258947572,
+      215415943
+    ]
+  },
+  {
+    "line_num": 177,
+    "query": "Could you recommend research that investigates the impact of randomly removing words from sentences as a data augmentation strategy to mitigate overfitting in NLP models?",
+    "corpus_ids": [
+      248299679
+    ],
+    "top_5_retrieved": [
+      256461357,
+      227231247,
+      233864791,
+      221836078,
+      259002938
+    ]
+  },
+  {
+    "line_num": 180,
+    "query": "Could you recommend research that proposed enhancing the RoBERTa model for event extraction by adding a Bi-LSTM and a CRF layer?",
+    "corpus_ids": [
+      236486171
+    ],
+    "top_5_retrieved": [
+      243865639,
+      256461158,
+      225062666,
+      256460924,
+      256460904
+    ]
+  },
+  {
+    "line_num": 186,
+    "query": "Could you recommend studies which explore how to optimally select demonstrations for few-shot in-context learning?",
+    "corpus_ids": [
+      231632658
+    ],
+    "top_5_retrieved": [
+      253420743,
+      252089424,
+      254591242,
+      254877590,
+      251979431
+    ]
+  },
+  {
+    "line_num": 195,
+    "query": "Could you suggest a study that explores data annotation paradigms that help assuage concerns in lack of annotator expertise when using crowdsourcing?",
+    "corpus_ids": [
+      245130931
+    ],
+    "top_5_retrieved": [
+      15960453,
+      3954835,
+      9355314,
+      11843300,
+      239009731
+    ]
+  },
+  {
+    "line_num": 196,
+    "query": "Could you suggest a study that explores employing a beta distribution to sample span sizes within unsupervised learning frameworks for text representation?",
+    "corpus_ids": [
+      219530980
+    ],
+    "top_5_retrieved": [
+      219531032,
+      12091357,
+      240353789,
+      159041867,
+      237267360
+    ]
+  },
+  {
+    "line_num": 198,
+    "query": "Could you suggest a study that explores the idea of using prompts to fine-tune language models, potentially providing an alternative viewpoint to standard optimization and regularization methods?",
+    "corpus_ids": [
+      229923710
+    ],
+    "top_5_retrieved": [
+      233296808,
+      259833814,
+      259833855,
+      258041372,
+      230433941
+    ]
+  },
+  {
+    "line_num": 199,
+    "query": "Could you suggest a study that explores the use of multi-modal pre-training techniques to improve the comprehension of documents with a high visual content?",
+    "corpus_ids": [
+      229923949
+    ],
+    "top_5_retrieved": [
+      231698922,
+      239015946,
+      254044707,
+      248218517,
+      222341606
+    ]
+  },
+  {
+    "line_num": 200,
+    "query": "Could you suggest a study that investigates the incorporation of human intervention in generating adversarial examples to attack conversational agents, with the aim of improving classifier efficacy",
+    "corpus_ids": [
+      216562425
+    ],
+    "top_5_retrieved": [
+      237453239,
+      248780270,
+      155100063,
+      258888064,
+      102353948
+    ]
+  },
+  {
+    "line_num": 206,
+    "query": "Could you suggest papers that tackle conversational search by using retrieval and conversational response ranking?",
+    "corpus_ids": [
+      235097662
+    ],
+    "top_5_retrieved": [
+      245131173,
+      18776034,
+      233296511,
+      245218563,
+      258887946
+    ]
+  },
+  {
+    "line_num": 209,
+    "query": "Could you suggest research that concentrates on pinpointing sentence components that carry hateful expressions, potentially aiding in sentence-level standardization for content moderation?",
+    "corpus_ids": [
+      236460230
+    ],
+    "top_5_retrieved": [
+      207996257,
+      252624736,
+      233210607,
+      257639809,
+      250144216
+    ]
+  },
+  {
+    "line_num": 210,
+    "query": "Could you suggest research that examines a system for multimodal annotation intended to assist people in analyzing dialogues within video content?",
+    "corpus_ids": [
+      231639161
+    ],
+    "top_5_retrieved": [
+      2302063,
+      16472823,
+      767219,
+      6356146,
+      1395257
+    ]
+  },
+  {
+    "line_num": 214,
+    "query": "Could you suggest research that examines how strangers exchange information during discussions, specifically concentrating on the kinds of information typically shared during first encounters?",
+    "corpus_ids": [
+      236034497
+    ],
+    "top_5_retrieved": [
+      10108216,
+      21692511,
+      37426379,
+      29611640,
+      43557332
+    ]
+  },
+  {
+    "line_num": 215,
+    "query": "Could you suggest research that examines how the order of in-context examples influences the efficacy of in-context learning in language models?",
+    "corpus_ids": [
+      233296494
+    ],
+    "top_5_retrieved": [
+      235313574,
+      231632658,
+      241035330,
+      245218561,
+      259262608
+    ]
+  },
+  {
+    "line_num": 220,
+    "query": "Could you suggest research that examines the challenges faced by neural networks in discerning causation from correlation?",
+    "corpus_ids": [
+      218901061
+    ],
+    "top_5_retrieved": [
+      252683534,
+      252872909,
+      248085064,
+      174802415,
+      228705808
+    ]
+  },
+  {
+    "line_num": 222,
+    "query": "Could you suggest research that examines the effects of starting language models with weights from pretrained nondiffusion models on the convergence behavior of diffusion losses?",
+    "corpus_ids": [
+      253237701
+    ],
+    "top_5_retrieved": [
+      254044147,
+      264306063,
+      253107491,
+      216553665,
+      258987792
+    ]
+  },
+  {
+    "line_num": 225,
+    "query": "Could you suggest research that explores generating synthetic labels for sentences within a vast text collection to pre-train models for few-shot learning applications?",
+    "corpus_ids": [
+      237452236
+    ],
+    "top_5_retrieved": [
+      248177895,
+      237502871,
+      253107930,
+      232168436,
+      221761685
+    ]
+  },
+  {
+    "line_num": 227,
+    "query": "Could you suggest research that explores the idea of training soft prompts rather than identifying fixed ones within the realm of prompt tuning?",
+    "corpus_ids": [
+      233210199
+    ],
+    "top_5_retrieved": [
+      233296808,
+      258378153,
+      252519660,
+      233231453,
+      259833809
+    ]
+  },
+  {
+    "line_num": 229,
+    "query": "Could you suggest research that includes an online community dataset used to examine machine learning models for hate speech identification?",
+    "corpus_ids": [
+      232092599
+    ],
+    "top_5_retrieved": [
+      40752541,
+      52878910,
+      259342497,
+      229923220,
+      247596954
+    ]
+  },
+  {
+    "line_num": 232,
+    "query": "Could you suggest research that investigates applying combinatorial optimization techniques in unsupervised entity matching?",
+    "corpus_ids": [
+      237420821
+    ],
+    "top_5_retrieved": [
+      255546240,
+      44159347,
+      233296875,
+      250390798,
+      218502538
+    ]
+  },
+  {
+    "line_num": 237,
+    "query": "Could you suggest research that investigates expanding keyword collections through embedding similarity in weakly-supervised document categorization?",
+    "corpus_ids": [
+      225067563
+    ],
+    "top_5_retrieved": [
+      220045126,
+      254564126,
+      5629501,
+      3211929,
+      196214300
+    ]
+  },
+  {
+    "line_num": 239,
+    "query": "Could you suggest research that investigates how cross-attention mechanisms improve the interplay between token and syntax data within automated program repair systems?",
+    "corpus_ids": [
+      236478113
+    ],
+    "top_5_retrieved": [
+      8153918,
+      102481167,
+      257279896,
+      222378309,
+      3532489
+    ]
+  },
+  {
+    "line_num": 244,
+    "query": "Could you suggest research that investigates improving retrieval-based conversational systems using by combining masked language modeling and relevance classification objectives?",
+    "corpus_ids": [
+      235097662
+    ],
+    "top_5_retrieved": [
+      263608822,
+      253553743,
+      253255025,
+      256598350,
+      251280143
+    ]
+  },
+  {
+    "line_num": 245,
+    "query": "Could you suggest research that investigates the use of past dialogues for enhancing query expansion in conversational search systems?",
+    "corpus_ids": [
+      222290679
+    ],
+    "top_5_retrieved": [
+      241583806,
+      233296511,
+      245131173,
+      245218563,
+      258887946
+    ]
+  },
+  {
+    "line_num": 251,
+    "query": "Could you suggest some work that develops multimodal models with contrastive learning approaches?",
+    "corpus_ids": [
+      229924402
+    ],
+    "top_5_retrieved": [
+      257557257,
+      220302636,
+      248377556,
+      253384407,
+      252819313
+    ]
+  },
+  {
+    "line_num": 252,
+    "query": "Could you suggest studies focused on emotion-classification within group dialogues?",
+    "corpus_ids": [
+      252819095
+    ],
+    "top_5_retrieved": [
+      17958293,
+      184482753,
+      3526062,
+      182953036,
+      201698197
+    ]
+  },
+  {
+    "line_num": 253,
+    "query": "Has any research explored using other off-the-shelf summarization techniques to improve neural abstractive summarization?",
+    "corpus_ids": [
+      223953416
+    ],
+    "top_5_retrieved": [
+      233241210,
+      202541012,
+      195833318,
+      11918447,
+      250391040
+    ]
+  },
+  {
+    "line_num": 258,
+    "query": "Have any new metrics been developed to assess the factual alignment of machine-generated summaries with their original source texts?",
+    "corpus_ids": [
+      244345901,
+      233219059
+    ],
+    "top_5_retrieved": [
+      258947273,
+      204976362,
+      233407441,
+      256460965,
+      245218667
+    ]
+  },
+  {
+    "line_num": 261,
+    "query": "Have any research efforts been made to gather dialogue data via crowdworkers to enhance conversational information retrieval systems?",
+    "corpus_ids": [
+      237571370
+    ],
+    "top_5_retrieved": [
+      251067143,
+      44096230,
+      212717688,
+      21698749,
+      2540075
+    ]
+  },
+  {
+    "line_num": 262,
+    "query": "Have any research papers been published on models for representing sentences in under-resourced languages like Slovenian or Romanian?",
+    "corpus_ids": [
+      220347683
+    ],
+    "top_5_retrieved": [
+      19656944,
+      7602284,
+      3295641,
+      193776,
+      5533798
+    ]
+  },
+  {
+    "line_num": 265,
+    "query": "Have any research papers examined the efficacy of multilingual text-to-text transformers across various languages, particularly those less represented in pretraining corpora?",
+    "corpus_ids": [
+      225040574
+    ],
+    "top_5_retrieved": [
+      253116659,
+      233296501,
+      237635197,
+      256460875,
+      204901567
+    ]
+  },
+  {
+    "line_num": 266,
+    "query": "Have any research papers examined whether using language models for providing evidence in fact-checking systems risks propagating biases?",
+    "corpus_ids": [
+      232258000
+    ],
+    "top_5_retrieved": [
+      258686693,
+      219531164,
+      247619066,
+      218901061,
+      254247260
+    ]
+  },
+  {
+    "line_num": 270,
+    "query": "Have any research papers investigated the creation of datasets through model-generated data for annotators to identify hallucinations in the results, specifically for developing diagnostic evaluation datasets?",
+    "corpus_ids": [
+      233289483
+    ],
+    "top_5_retrieved": [
+      248227301,
+      256000114,
+      226254579,
+      233296648,
+      249151889
+    ]
+  },
+  {
+    "line_num": 273,
+    "query": "Have any research papers tried to create conversational agents with inner states represented by a knowledge graph that can be continually updated based on the agent\u2019s environment?",
+    "corpus_ids": [
+      252847559
+    ],
+    "top_5_retrieved": [
+      237373991,
+      252519245,
+      6972449,
+      219177555,
+      3051772
+    ]
+  },
+  {
+    "line_num": 279,
+    "query": "I know about prompt tuning, but have any works tried learning embeddings that are inputted to every transformer layer in a language model?",
+    "corpus_ids": [
+      230433941
+    ],
+    "top_5_retrieved": [
+      257365136,
+      256900985,
+      252907221,
+      225067567,
+      258378153
+    ]
+  },
+  {
+    "line_num": 293,
+    "query": "Is there research that argues for transparency and open-access to the training data of LLMs and demontrates its importance with case studies of existing data?",
+    "corpus_ids": [
+      237568724
+    ],
+    "top_5_retrieved": [
+      257219882,
+      252907514,
+      254293626,
+      259129447,
+      253244515
+    ]
+  },
+  {
+    "line_num": 298,
+    "query": "What are some scholarly articles that explore the enhancement of dense retrieval in student models through the application of prediction distributions from teacher models?",
+    "corpus_ids": [
+      244799249
+    ],
+    "top_5_retrieved": [
+      235720578,
+      259370551,
+      233307448,
+      248562596,
+      227746078
+    ]
+  },
+  {
+    "line_num": 304,
+    "query": "What difficulties do neural conversational models face, particularly concerning the decoder's ability to produce precise and fact-based replies?",
+    "corpus_ids": [
+      233296059
+    ],
+    "top_5_retrieved": [
+      218487034,
+      207852724,
+      219686914,
+      52159416,
+      201657646
+    ]
+  },
+  {
+    "line_num": 305,
+    "query": "What literature is available on training semantic parsers with deep learning for knowledge base question answering systems, especially those employing tree-structured representations of queries?",
+    "corpus_ids": [
+      235303644
+    ],
+    "top_5_retrieved": [
+      18309765,
+      51974493,
+      2423360,
+      236486248,
+      13905064
+    ]
+  },
+  {
+    "line_num": 307,
+    "query": "What papers discuss the effect of false negatives among hard negatives in dense retriever training?",
+    "corpus_ids": [
+      248496439
+    ],
+    "top_5_retrieved": [
+      256461130,
+      253237545,
+      233219842,
+      232320760,
+      231815627
+    ]
+  },
+  {
+    "line_num": 308,
+    "query": "What papers explore replacing schema linking with human annotations to study the maximum potential benefit of schema linking for text-to-SQL tasks?",
+    "corpus_ids": [
+      236478283
+    ],
+    "top_5_retrieved": [
+      226262231,
+      207863446,
+      222067029,
+      248780134,
+      155092736
+    ]
+  },
+  {
+    "line_num": 312,
+    "query": "What research exists comparing adapter-based tuning and full fine-tuning efficacy in limited data contexts?",
+    "corpus_ids": [
+      230433941,
+      238857301
+    ],
+    "top_5_retrieved": [
+      235359141,
+      252763332,
+      236486069,
+      259833855,
+      248506096
+    ]
+  },
+  {
+    "line_num": 313,
+    "query": "What research exists on employing generative models with latent variable to capture semantic dependencies in conversational systems?",
+    "corpus_ids": [
+      235358586
+    ],
+    "top_5_retrieved": [
+      11902748,
+      17611516,
+      4829361,
+      10480989,
+      3101974
+    ]
+  },
+  {
+    "line_num": 320,
+    "query": "What research has been conducted on determining the ideal segment length for unsupervised keyphrase extraction?",
+    "corpus_ids": [
+      237513596
+    ],
+    "top_5_retrieved": [
+      14952736,
+      52171279,
+      10430553,
+      4409406,
+      21275504
+    ]
+  },
+  {
+    "line_num": 322,
+    "query": "What research has been conducted on incorporating visual data into the text summarization process?",
+    "corpus_ids": [
+      254685691
+    ],
+    "top_5_retrieved": [
+      13898507,
+      31363511,
+      9627703,
+      38491634,
+      237420398
+    ]
+  },
+  {
+    "line_num": 326,
+    "query": "What research is available on acquiring sentence embeddings through unsupervised approaches, possibly employing contrastive learning methods?",
+    "corpus_ids": [
+      237453212
+    ],
+    "top_5_retrieved": [
+      219530980,
+      233296292,
+      259370776,
+      247450777,
+      248572170
+    ]
+  },
+  {
+    "line_num": 327,
+    "query": "What research is available on hybrid approaches that combine extractive and abstractive methods for summarizing extensive texts?",
+    "corpus_ids": [
+      232075836
+    ],
+    "top_5_retrieved": [
+      202541012,
+      12682781,
+      259370510,
+      2901559,
+      53216170
+    ]
+  },
+  {
+    "line_num": 332,
+    "query": "What techniques and frameworks have been suggested for summarizing extensive texts under resource-constrained conditions?",
+    "corpus_ids": [
+      232075836
+    ],
+    "top_5_retrieved": [
+      237157879,
+      2482257,
+      15412925,
+      226262229,
+      15195249
+    ]
+  },
+  {
+    "line_num": 333,
+    "query": "What techniques exist for efficiently fine-tuning transformer language models by adjusting a limited set of parameters?",
+    "corpus_ids": [
+      230433941
+    ],
+    "top_5_retrieved": [
+      238583580,
+      255440621,
+      258947572,
+      252780109,
+      231672601
+    ]
+  },
+  {
+    "line_num": 336,
+    "query": "What techniques have been investigated to enhance multimodal sentiment analysis by fusing different modalities?",
+    "corpus_ids": [
+      237372185,
+      236460184
+    ],
+    "top_5_retrieved": [
+      227231517,
+      248780093,
+      236478321,
+      12506231,
+      46895984
+    ]
+  },
+  {
+    "line_num": 337,
+    "query": "Where can I find a database of good prompts to use for prompting language models for in-context learning?",
+    "corpus_ids": [
+      241033259
+    ],
+    "top_5_retrieved": [
+      245218561,
+      246485605,
+      231632658,
+      233231453,
+      259262608
+    ]
+  },
+  {
+    "line_num": 341,
+    "query": "Which paper introduced the task of creating extended, coherent dialogues from brief summaries?",
+    "corpus_ids": [
+      235359080
+    ],
+    "top_5_retrieved": [
+      258378335,
+      2239496,
+      237940558,
+      258378169,
+      14269795
+    ]
+  },
+  {
+    "line_num": 342,
+    "query": "Which paper presents a platform that emphasizes evaluating the robustness of models on benchmarks?",
+    "corpus_ids": [
+      233444226
+    ],
+    "top_5_retrieved": [
+      238583613,
+      231592355,
+      216641718,
+      252819307,
+      229923179
+    ]
+  },
+  {
+    "line_num": 343,
+    "query": "Which paper shows that generated captions of models are still worse than human written ones?",
+    "corpus_ids": [
+      244270388
+    ],
+    "top_5_retrieved": [
+      253080824,
+      30046385,
+      2948298,
+      256462239,
+      225068033
+    ]
+  },
+  {
+    "line_num": 345,
+    "query": "Which work introduces sparse attention modules and evaluate specifically on summarization?",
+    "corpus_ids": [
+      233033613
+    ],
+    "top_5_retrieved": [
+      247292845,
+      238744469,
+      27970287,
+      202771940,
+      21723747
+    ]
+  },
+  {
+    "line_num": 347,
+    "query": "Which work shows that only emplying instance-level uncertainty metrics could results in sample redundancy in active learning?",
+    "corpus_ids": [
+      250390500
+    ],
+    "top_5_retrieved": [
+      227209515,
+      182953134,
+      256846841,
+      252595603,
+      257219875
+    ]
+  },
+  {
+    "line_num": 348,
+    "query": "Which work shows that reducing the number of training epochs effectively limits the impact of backdoor attack, but the method decreases the prediction accuracy?",
+    "corpus_ids": [
+      233230124
+    ],
+    "top_5_retrieved": [
+      246652381,
+      264172240,
+      259165262,
+      231627799,
+      253098063
+    ]
+  },
+  {
+    "line_num": 350,
+    "query": "Which works shows that training large language models with purely mathematical and structural data can exhibit emergence of causal reasoning faster?",
+    "corpus_ids": [
+      259089125
+    ],
+    "top_5_retrieved": [
+      259129342,
+      218901061,
+      252873120,
+      248887351,
+      252735112
+    ]
+  },
+  {
+    "line_num": 351,
+    "query": "ould you direct me to research that shows that the transfer of specialized knowledge between various ABSA tasks if trained under the same paradigm?",
+    "corpus_ids": [
+      238259938
+    ],
+    "top_5_retrieved": [
+      252819488,
+      258714602,
+      218487733,
+      28929215,
+      237353134
+    ]
+  },
+  {
+    "line_num": 353,
+    "query": "Are there any large-scale and open-source text simplification datasets dealing with long passages?",
+    "corpus_ids": [
+      258967312
+    ],
+    "top_5_retrieved": [
+      7962289,
+      17817489,
+      256461059,
+      21713133,
+      21693508
+    ]
+  },
+  {
+    "line_num": 354,
+    "query": "Are there any papers that build dense retrievers with mixture-of-experts architecture where each expert is responsible for different types of queries?",
+    "corpus_ids": [
+      258546861
+    ],
+    "top_5_retrieved": [
+      252693264,
+      254535822,
+      260378993,
+      254877046,
+      215737187
+    ]
+  },
+  {
+    "line_num": 361,
+    "query": "If one would like to train (or evaluate) a helpful assistant agent that can converse with humans while the humans traverse an environment, which work has the most suitable resource?",
+    "corpus_ids": [
+      259370710
+    ],
+    "top_5_retrieved": [
+      202538463,
+      196471395,
+      71144630,
+      30472538,
+      2239496
+    ]
+  },
+  {
+    "line_num": 364,
+    "query": "Is there a dataset that allows to perform aspect-based sentiment classification on French news?",
+    "corpus_ids": [
+      259370666
+    ],
+    "top_5_retrieved": [
+      21687093,
+      14142944,
+      251490897,
+      4915029,
+      53239866
+    ]
+  },
+  {
+    "line_num": 365,
+    "query": "Is there a decoder-only language model that does not use a tokenizer and operates on raw text bytes?",
+    "corpus_ids": [
+      254877406
+    ],
+    "top_5_retrieved": [
+      221246120,
+      235624202,
+      384520,
+      232185112,
+      248986585
+    ]
+  },
+  {
+    "line_num": 367,
+    "query": "Is there a method for measuring the critical errors that a dialogue system makes in its responses?",
+    "corpus_ids": [
+      254854340
+    ],
+    "top_5_retrieved": [
+      8880454,
+      2872911,
+      1795288,
+      59758667,
+      2290919
+    ]
+  },
+  {
+    "line_num": 370,
+    "query": "Is there a paper exploring the curse of multilinguality for similar languages?",
+    "corpus_ids": [
+      258832427
+    ],
+    "top_5_retrieved": [
+      18544112,
+      226289571,
+      6695616,
+      248721770,
+      4649203
+    ]
+  },
+  {
+    "line_num": 372,
+    "query": "Is there a paper that connects the basic elements of storytelling with biased or imbalanced media reporting?",
+    "corpus_ids": [
+      259075515
+    ],
+    "top_5_retrieved": [
+      199022673,
+      258947499,
+      220056948,
+      202537179,
+      52917952
+    ]
+  },
+  {
+    "line_num": 373,
+    "query": "Is there a paper that links exposure bias to distillation?",
+    "corpus_ids": [
+      258461336
+    ],
+    "top_5_retrieved": [
+      218538004,
+      261276856,
+      247939224,
+      203610243,
+      235098226
+    ]
+  },
+  {
+    "line_num": 379,
+    "query": "Is there a paper that uses similarity scores to check knowledge in diffusion models",
+    "corpus_ids": [
+      259063887
+    ],
+    "top_5_retrieved": [
+      250390698,
+      5696027,
+      246823772,
+      264128429,
+      254096040
+    ]
+  },
+  {
+    "line_num": 383,
+    "query": "Is there a tool that can automatically segment speech and the corresponding text transcriptions, to obtain a finer grained alignment?",
+    "corpus_ids": [
+      258866035
+    ],
+    "top_5_retrieved": [
+      33673706,
+      28975158,
+      10631818,
+      252624627,
+      14395270
+    ]
+  },
+  {
+    "line_num": 390,
+    "query": "Is there any paper that aligns speech and text embeddings better than CTC training?",
+    "corpus_ids": [
+      254854514
+    ],
+    "top_5_retrieved": [
+      252815434,
+      225075898,
+      204008396,
+      215744873,
+      235828943
+    ]
+  },
+  {
+    "line_num": 396,
+    "query": "Is there any paper that constructs augmented training data based on the entity-to-entity correlations?",
+    "corpus_ids": [
+      252918792
+    ],
+    "top_5_retrieved": [
+      249062703,
+      231855232,
+      259370518,
+      224814117,
+      248780583
+    ]
+  },
+  {
+    "line_num": 404,
+    "query": "Is there any paper that proposes a new multimodal video dataset that image-level multimodal models do not work well?",
+    "corpus_ids": [
+      249431866
+    ],
+    "top_5_retrieved": [
+      4894500,
+      225076158,
+      232240219,
+      226283672,
+      249712518
+    ]
+  },
+  {
+    "line_num": 405,
+    "query": "Is there any paper that proposes a set of criteria to comprehensively evaluate generated conversations?",
+    "corpus_ids": [
+      258547050
+    ],
+    "top_5_retrieved": [
+      249605593,
+      140246560,
+      252199927,
+      251765463,
+      173990530
+    ]
+  },
+  {
+    "line_num": 412,
+    "query": "Is there any paper that utilizes Gaussian processes to analyze the vulnerability of text-conditioned generative models?",
+    "corpus_ids": [
+      258960443
+    ],
+    "top_5_retrieved": [
+      253097839,
+      222140954,
+      246702343,
+      201698258,
+      222142150
+    ]
+  },
+  {
+    "line_num": 415,
+    "query": "Is there any research paper that can extract attributes from both a predefined label set and the surrounding context?",
+    "corpus_ids": [
+      259370741
+    ],
+    "top_5_retrieved": [
+      7198729,
+      15436060,
+      9452131,
+      244119302,
+      248780582
+    ]
+  },
+  {
+    "line_num": 418,
+    "query": "Is there any works that explores how to achieve balance between representativeness and diversity in chosen samples for few-shot data selection?",
+    "corpus_ids": [
+      252280753
+    ],
+    "top_5_retrieved": [
+      235755110,
+      29162291,
+      204009148,
+      238408406,
+      237091103
+    ]
+  },
+  {
+    "line_num": 424,
+    "query": "What are some methods for solving the class-incremetal continual learning problems?",
+    "corpus_ids": [
+      259370817
+    ],
+    "top_5_retrieved": [
+      259370684,
+      219636462,
+      247315339,
+      53100211,
+      239024453
+    ]
+  },
+  {
+    "line_num": 427,
+    "query": "What is the performance of large language models in text summarization under reference-based and reference-free human evaluations?",
+    "corpus_ids": [
+      254685611
+    ],
+    "top_5_retrieved": [
+      202541012,
+      248300077,
+      233219059,
+      201703063,
+      211258800
+    ]
+  },
+  {
+    "line_num": 433,
+    "query": "Which family of model generally perform the best for the event conceptualization task",
+    "corpus_ids": [
+      258557145
+    ],
+    "top_5_retrieved": [
+      257985708,
+      15423966,
+      254877737,
+      41141313,
+      195064535
+    ]
+  },
+  {
+    "line_num": 434,
+    "query": "Which is the first multimodal model combining text and speech transformers trained without labelled text-speech pairs?",
+    "corpus_ids": [
+      253523259
+    ],
+    "top_5_retrieved": [
+      254591489,
+      254636518,
+      434304,
+      252762414,
+      245218746
+    ]
+  },
+  {
+    "line_num": 437,
+    "query": "Which numerical reasoning paper first published a dataset that considers different types of size of numbers and their representations in arithmetic questions?",
+    "corpus_ids": [
+      258959201
+    ],
+    "top_5_retrieved": [
+      247593713,
+      256461049,
+      237563143,
+      252735195,
+      44133715
+    ]
+  },
+  {
+    "line_num": 448,
+    "query": "Which paper first combines different methods for uncertainty quantification in one?",
+    "corpus_ids": [
+      259370752
+    ],
+    "top_5_retrieved": [
+      219636236,
+      235293986,
+      262065523,
+      52901777,
+      254636613
+    ]
+  },
+  {
+    "line_num": 452,
+    "query": "Which paper first constructed a structured knowledge base to interconnect different human social roles and attributes?",
+    "corpus_ids": [
+      258480238
+    ],
+    "top_5_retrieved": [
+      14258704,
+      5132275,
+      5918409,
+      13916271,
+      3160223
+    ]
+  },
+  {
+    "line_num": 459,
+    "query": "Which paper first proposed shared adapter module across layers?",
+    "corpus_ids": [
+      258960642
+    ],
+    "top_5_retrieved": [
+      220525782,
+      235309789,
+      248986726,
+      248506096,
+      233219888
+    ]
+  },
+  {
+    "line_num": 461,
+    "query": "Which paper first proposed to only update some original weights of self-attention layers in parameter-efficient fine-tuning?",
+    "corpus_ids": [
+      258557131
+    ],
+    "top_5_retrieved": [
+      238583580,
+      252780109,
+      255440621,
+      257631760,
+      258947572
+    ]
+  },
+  {
+    "line_num": 467,
+    "query": "Which paper first used structural information for coherence modeling?",
+    "corpus_ids": [
+      259138479
+    ],
+    "top_5_retrieved": [
+      14859321,
+      11609990,
+      5752261,
+      9615470,
+      10823586
+    ]
+  },
+  {
+    "line_num": 468,
+    "query": "Which paper found that mutual learning benefits multlingual models?",
+    "corpus_ids": [
+      258887491
+    ],
+    "top_5_retrieved": [
+      243865274,
+      222141016,
+      204008396,
+      9451332,
+      236486125
+    ]
+  },
+  {
+    "line_num": 469,
+    "query": "Which paper highlights the need for leveraging all available resources, including dictionaries, machine translation systems, and language learners, to construct NLP data in low-resource languages?",
+    "corpus_ids": [
+      252873073
+    ],
+    "top_5_retrieved": [
+      259370570,
+      27747034,
+      22602753,
+      11897561,
+      10934911
+    ]
+  },
+  {
+    "line_num": 470,
+    "query": "Which paper introduce a DRO (distribution robust optimization) like training objective for doing adversarial training without constructing adversarial samples.",
+    "corpus_ids": [
+      259262427
+    ],
+    "top_5_retrieved": [
+      13900194,
+      232269775,
+      247570285,
+      247158827,
+      258833682
+    ]
+  },
+  {
+    "line_num": 472,
+    "query": "Which paper introduces the R-GCN technique into document-level joint entity and relation extraction?",
+    "corpus_ids": [
+      259370653
+    ],
+    "top_5_retrieved": [
+      196211486,
+      221836081,
+      184487889,
+      236477597,
+      196203277
+    ]
+  },
+  {
+    "line_num": 474,
+    "query": "Which paper is among the earliest to train on extensive collection of signing video and subtitle pairs available from online platforms?",
+    "corpus_ids": [
+      258832883
+    ],
+    "top_5_retrieved": [
+      249062667,
+      252125671,
+      21712068,
+      258461359,
+      247749071
+    ]
+  },
+  {
+    "line_num": 476,
+    "query": "Which paper makes sure that the questions used in the paper are all from real users that are genuinely curious about a specific topic or concept?",
+    "corpus_ids": [
+      254096489
+    ],
+    "top_5_retrieved": [
+      207847382,
+      14741151,
+      86611921,
+      16907473,
+      249394777
+    ]
+  },
+  {
+    "line_num": 490,
+    "query": "Which paper studies how current retrieval systems handle queries which contain multiple constraints?",
+    "corpus_ids": [
+      258822815
+    ],
+    "top_5_retrieved": [
+      13867802,
+      220047976,
+      640348,
+      44297035,
+      12362348
+    ]
+  },
+  {
+    "line_num": 497,
+    "query": "Which papers were among the first to explore the task of targeted training data extraction?",
+    "corpus_ids": [
+      259370520
+    ],
+    "top_5_retrieved": [
+      245616870,
+      231855232,
+      1400165,
+      3179848,
+      256461278
+    ]
+  },
+  {
+    "line_num": 499,
+    "query": "Which research paper leverages event structure information from Abstract Meaning Representation (AMR) graphs to aid in recognizing causal relations between events?",
+    "corpus_ids": [
+      258833194
+    ],
+    "top_5_retrieved": [
+      3030259,
+      9961954,
+      85542338,
+      235097301,
+      220048573
+    ]
+  },
+  {
+    "line_num": 503,
+    "query": "Which work discusses an analysis of source and target contributions to output generation based on local interpretation when machine translation models experience hallucinations?",
+    "corpus_ids": [
+      259370787
+    ],
+    "top_5_retrieved": [
+      254823170,
+      256000114,
+      233231373,
+      224818197,
+      226254579
+    ]
+  },
+  {
+    "line_num": 508,
+    "query": "Can we learn to represent an image with arbitary numbers of tokens?",
+    "corpus_ids": [
+      258041281
+    ],
+    "top_5_retrieved": [
+      250526649,
+      235436185,
+      247618909,
+      51876695,
+      52198665
+    ]
+  },
+  {
+    "line_num": 511,
+    "query": "Are there any papers that use a world model for planning to ensure that decisions meet constraints?",
+    "corpus_ids": [
+      259924554
+    ],
+    "top_5_retrieved": [
+      246240506,
+      15314073,
+      227305788,
+      221112471,
+      9101909
+    ]
+  },
+  {
+    "line_num": 523,
+    "query": "Is there a parameter-efficient fine-tuning method (PEFT) that allows adjusting the number of optimized parameters to any value, irrespective of the model's architecture or choice of the adapter?",
+    "corpus_ids": [
+      263620510
+    ],
+    "top_5_retrieved": [
+      258947572,
+      248986389,
+      255440621,
+      238583580,
+      261697072
+    ]
+  },
+  {
+    "line_num": 534,
+    "query": "Is there any paper that uses Lipschitz continuity in learning a dynamics model?",
+    "corpus_ids": [
+      264306002
+    ],
+    "top_5_retrieved": [
+      256503666,
+      219965819,
+      246485884,
+      209475155,
+      233423379
+    ]
+  },
+  {
+    "line_num": 539,
+    "query": "What is a paper studying data being collected in bundles in reinforcement learning ?",
+    "corpus_ids": [
+      263609164
+    ],
+    "top_5_retrieved": [
+      199543783,
+      14717992,
+      258236460,
+      211204780,
+      247741535
+    ]
+  },
+  {
+    "line_num": 544,
+    "query": "What paper considers sensitive data issue when prompting large language model APIs?",
+    "corpus_ids": [
+      258832501
+    ],
+    "top_5_retrieved": [
+      264172710,
+      264555202,
+      263311025,
+      258960423,
+      258823013
+    ]
+  },
+  {
+    "line_num": 551,
+    "query": "What paper first showed that you can score the code explanations using the pass@k metric?",
+    "corpus_ids": [
+      260886874
+    ],
+    "top_5_retrieved": [
+      232233376,
+      248862996,
+      239024909,
+      258546862,
+      253223917
+    ]
+  },
+  {
+    "line_num": 553,
+    "query": "What paper first uses decoupled workers in distributed RL system?",
+    "corpus_ids": [
+      259287121
+    ],
+    "top_5_retrieved": [
+      3463260,
+      3517962,
+      13748235,
+      208527831,
+      210849195
+    ]
+  },
+  {
+    "line_num": 557,
+    "query": "What paper mitigates the vocabulary size limitation when pretraining multilingual masked language models using a contrastive loss?",
+    "corpus_ids": [
+      262013288
+    ],
+    "top_5_retrieved": [
+      236478212,
+      252763363,
+      236940581,
+      259370532,
+      204008396
+    ]
+  },
+  {
+    "line_num": 558,
+    "query": "What paper proposes breaking down programming problems by predicting the objects that a solution would create?",
+    "corpus_ids": [
+      260164542
+    ],
+    "top_5_retrieved": [
+      67856205,
+      255595956,
+      1215762,
+      57189211,
+      2906360
+    ]
+  },
+  {
+    "line_num": 561,
+    "query": "What research first proposed a new kind of cascaded diffusion of a Markov process?",
+    "corpus_ids": [
+      261582259
+    ],
+    "top_5_retrieved": [
+      1040,
+      254096040,
+      5696027,
+      252815987,
+      252846166
+    ]
+  },
+  {
+    "line_num": 565,
+    "query": "Which backdoor paper first used the CLIP to suppress benign features and enhance poisoning features to design triggers?",
+    "corpus_ids": [
+      259165262
+    ],
+    "top_5_retrieved": [
+      235458091,
+      231627799,
+      253098063,
+      246652381,
+      264172240
+    ]
+  },
+  {
+    "line_num": 567,
+    "query": "Which is one of the first papers to highlight and resolve the distribution shift in RLHF?",
+    "corpus_ids": [
+      260683028
+    ],
+    "top_5_retrieved": [
+      245502568,
+      239050418,
+      258236460,
+      246411266,
+      254823652
+    ]
+  },
+  {
+    "line_num": 584,
+    "query": "Which paper first tried to fine-tune LLMs with chain-of-thoughts and program-of-thoughts for math reasoning?",
+    "corpus_ids": [
+      261696697
+    ],
+    "top_5_retrieved": [
+      254877569,
+      257427208,
+      258558102,
+      254877399,
+      254823156
+    ]
+  },
+  {
+    "line_num": 596,
+    "query": "What paper provides generalization bounds for self supervised learning models eg. CLIP",
+    "corpus_ids": [
+      263830433
+    ],
+    "top_5_retrieved": [
+      223956716,
+      263605817,
+      257482844,
+      238582773,
+      238419044
+    ]
+  }
+]

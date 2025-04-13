@@ -1,0 +1,363 @@
+{
+  "overall_distribution": {
+    "total_queries": 597,
+    "pass_queries": 422,
+    "fail_queries": 175,
+    "pass_rate": 70.68676716917923,
+    "fail_rate": 29.313232830820766
+  },
+  "query_length": {
+    "overall_mean_word_count": 21.423785594639867,
+    "pass_mean_word_count": 21.59004739336493,
+    "fail_mean_word_count": 21.02285714285714,
+    "by_category": {
+      "Short (< 15 words)": {
+        "count": 120,
+        "pass_count": 81,
+        "pass_rate": 67.5
+      },
+      "Medium (15-25 words)": {
+        "count": 328,
+        "pass_count": 232,
+        "pass_rate": 70.73170731707317
+      },
+      "Long (> 25 words)": {
+        "count": 149,
+        "pass_count": 109,
+        "pass_rate": 73.15436241610739
+      }
+    }
+  },
+  "query_structure": {
+    "by_question_type": {
+      "which_paper": {
+        "count": 111,
+        "pass_count": 84,
+        "pass_rate": 75.67567567567568,
+        "example": "I'm exploring efficient transformer architectures for language embeddings and came across some work that utilizes advanced pre-trained models. Which paper should I reference to learn more about the use of XLM-R for multilingual representation learning in a transformer-based setting?"
+      },
+      "where_find": {
+        "count": 15,
+        "pass_count": 11,
+        "pass_rate": 73.33333333333333,
+        "example": "I am exploring state-of-the-art techniques in language representation models that are trained to understand context from both the preceding and succeeding text. Where can I find foundational research on this topic, including information about the Transformer architecture, and the specific tasks such models are pre-trained on?"
+      },
+      "point_to": {
+        "count": 17,
+        "pass_count": 13,
+        "pass_rate": 76.47058823529412,
+        "example": "Are there studies that combine convolutional and recurrent neural network approaches to extract multiple types of features for relation extraction? If so, could you point me to one of them?"
+      },
+      "recommend": {
+        "count": 81,
+        "pass_count": 46,
+        "pass_rate": 56.79012345679012,
+        "example": "Can you recommend a foundational paper that provides a scalable framework for generating English sentences with controllable semantic and syntactic attributes for the purpose of augmenting datasets in NLP tasks?"
+      },
+      "suggest": {
+        "count": 78,
+        "pass_count": 52,
+        "pass_rate": 66.66666666666666,
+        "example": "Can you suggest a corpus that contains French encyclopedia documents with semantic annotations and includes a test set of manually written question/answer triplets that align with the constraints of FrameNet semantic analysis?"
+      },
+      "are_there": {
+        "count": 23,
+        "pass_count": 12,
+        "pass_rate": 52.17391304347826,
+        "example": "Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?"
+      },
+      "what_are": {
+        "count": 18,
+        "pass_count": 14,
+        "pass_rate": 77.77777777777779,
+        "example": "I'm conducting research on computational humor and looking at various approaches to detect it within texts. What are some articles that explore features like repetition or use language models like GPT-2 for humor recognition?"
+      },
+      "is_there": {
+        "count": 66,
+        "pass_count": 54,
+        "pass_rate": 81.81818181818183,
+        "example": "In multi-hop question answering, is there a paper that explores \"per-hop\" retrieval evaluation that treats each hop of retrieval independently?"
+      },
+      "other": {
+        "count": 188,
+        "pass_count": 136,
+        "pass_rate": 72.3404255319149,
+        "example": "Can you direct me to research that explores methods for transforming multi-hop questions into single-hop sub-questions to leverage existing single-hop answer models?"
+      }
+    },
+    "by_directness": {
+      "direct_questions": {
+        "count": 143,
+        "pass_rate": 75.52447552447552
+      },
+      "indirect_requests": {
+        "count": 454,
+        "pass_rate": 69.16299559471366
+      }
+    }
+  },
+  "technical_terms": {
+    "by_category": {
+      "model_names": {
+        "occurrence": 42,
+        "pass_count": 33,
+        "pass_rate": 78.57142857142857
+      },
+      "task_names": {
+        "occurrence": 130,
+        "pass_count": 97,
+        "pass_rate": 74.61538461538461
+      },
+      "method_terms": {
+        "occurrence": 75,
+        "pass_count": 53,
+        "pass_rate": 70.66666666666667
+      },
+      "metric_names": {
+        "occurrence": 9,
+        "pass_count": 6,
+        "pass_rate": 66.66666666666666
+      },
+      "generic_ml_terms": {
+        "occurrence": 211,
+        "pass_count": 152,
+        "pass_rate": 72.03791469194313
+      }
+    },
+    "by_density": {
+      "Low": {
+        "count": 258,
+        "pass_count": 180,
+        "pass_rate": 69.76744186046511
+      },
+      "Medium": {
+        "count": 85,
+        "pass_count": 68,
+        "pass_rate": 80.0
+      },
+      "High": {
+        "count": 4,
+        "pass_count": 3,
+        "pass_rate": 75.0
+      },
+      "Very High": {
+        "count": 0,
+        "pass_count": 0,
+        "pass_rate": 0
+      }
+    },
+    "overall_stats": {
+      "mean_tech_terms": 0.9698492462311558,
+      "pass_mean_tech_terms": 1.014218009478673,
+      "fail_mean_tech_terms": 0.8628571428571429
+    }
+  },
+  "syntactic_complexity": {
+    "pass_queries": {
+      "mean_parse_depth": 7.398550724637682,
+      "mean_noun_chunks": 5.9855072463768115,
+      "mean_prep_phrases": 2.282608695652174,
+      "mean_subordinate_clauses": 0.7391304347826086,
+      "mean_coordinate_conjunctions": 0.39855072463768115
+    },
+    "fail_queries": {
+      "mean_parse_depth": 7.596774193548387,
+      "mean_noun_chunks": 5.983870967741935,
+      "mean_prep_phrases": 2.2096774193548385,
+      "mean_subordinate_clauses": 0.6612903225806451,
+      "mean_coordinate_conjunctions": 0.3709677419354839
+    }
+  },
+  "research_areas": {
+    "Language modeling": {
+      "count": 69,
+      "pass_count": 58,
+      "pass_rate": 84.05797101449275
+    },
+    "Machine translation": {
+      "count": 26,
+      "pass_count": 19,
+      "pass_rate": 73.07692307692307
+    },
+    "Summarization": {
+      "count": 39,
+      "pass_count": 23,
+      "pass_rate": 58.97435897435898
+    },
+    "Question answering": {
+      "count": 26,
+      "pass_count": 19,
+      "pass_rate": 73.07692307692307
+    },
+    "Information retrieval": {
+      "count": 41,
+      "pass_count": 27,
+      "pass_rate": 65.85365853658537
+    },
+    "Dialogue systems": {
+      "count": 42,
+      "pass_count": 24,
+      "pass_rate": 57.14285714285714
+    },
+    "Sentiment analysis": {
+      "count": 41,
+      "pass_count": 30,
+      "pass_rate": 73.17073170731707
+    },
+    "Named entity recognition": {
+      "count": 18,
+      "pass_count": 10,
+      "pass_rate": 55.55555555555556
+    },
+    "Parsing": {
+      "count": 17,
+      "pass_count": 12,
+      "pass_rate": 70.58823529411765
+    },
+    "Embeddings & representations": {
+      "count": 82,
+      "pass_count": 65,
+      "pass_rate": 79.26829268292683
+    },
+    "Knowledge graphs": {
+      "count": 30,
+      "pass_count": 22,
+      "pass_rate": 73.33333333333333
+    },
+    "Few-shot learning": {
+      "count": 29,
+      "pass_count": 20,
+      "pass_rate": 68.96551724137932
+    },
+    "Efficient ML methods": {
+      "count": 67,
+      "pass_count": 47,
+      "pass_rate": 70.1492537313433
+    },
+    "Interpretability & evaluation": {
+      "count": 29,
+      "pass_count": 21,
+      "pass_rate": 72.41379310344827
+    }
+  },
+  "query_intentions": {
+    "Find specific paper": {
+      "count": 239,
+      "pass_count": 179,
+      "pass_rate": 74.89539748953975
+    },
+    "Explore research direction": {
+      "count": 211,
+      "pass_count": 145,
+      "pass_rate": 68.72037914691943
+    },
+    "Find implementation/method": {
+      "count": 51,
+      "pass_count": 30,
+      "pass_rate": 58.82352941176471
+    },
+    "Find evaluation benchmark": {
+      "count": 25,
+      "pass_count": 15,
+      "pass_rate": 60.0
+    },
+    "Find comparison of methods": {
+      "count": 15,
+      "pass_count": 9,
+      "pass_rate": 60.0
+    },
+    "Find resources/datasets": {
+      "count": 53,
+      "pass_count": 41,
+      "pass_rate": 77.35849056603774
+    }
+  },
+  "failure_modes": {
+    "Terminology ambiguity": {
+      "count": 24,
+      "percentage": 13.714285714285715,
+      "example": "Are there any research papers on methods to compress large-scale language models using task-agnostic knowledge distillation techniques?"
+    },
+    "Concept conjunction complexity": {
+      "count": 36,
+      "percentage": 20.57142857142857,
+      "example": "Can you point me to studies discussing methods for evaluating text generation models on various dimensions? I'm particularly interested in models like T5 and FLAN-T5, and how to assess their performance on summary-level and turn-level tasks."
+    },
+    "Knowledge gap (emerging topics)": {
+      "count": 40,
+      "percentage": 22.857142857142858,
+      "example": "Can you recommend a conversational QA dataset where the human questioner does not have access to the evidence passage to simulate a more real-world information-seeking environment?"
+    },
+    "Method-application conflation": {
+      "count": 8,
+      "percentage": 4.571428571428571,
+      "example": "Can you recommend a paper that uses an NLI model for sentence-level relation extraction using hypothesis generation and verification with entity-type constraints?"
+    },
+    "Granularity mismatch": {
+      "count": 29,
+      "percentage": 16.57142857142857,
+      "example": "Can you point me to a work that uses diagnostic tools to detect depression from online posts, and investigates strategies that address common temporal and topical artifacts that plague these models?"
+    },
+    "Cross-domain knowledge requirement": {
+      "count": 25,
+      "percentage": 14.285714285714285,
+      "example": "Are there any tools or studies that have focused on building a morphological analyzer specifically for handling multiple Arabic dialects?"
+    },
+    "Overly broad information need": {
+      "count": 5,
+      "percentage": 2.857142857142857,
+      "example": "I would like to understand the theoretical basis for using the nuclear norm of a weight matrix as a measure of complexity in linear models for probing tasks. Which paper should I refer to?"
+    }
+  },
+  "feature_importance": {
+    "feature_scores": {
+      "Technical term specificity level": 0.187,
+      "Query intention type": 0.142,
+      "Number of distinct technical terms": 0.126,
+      "Syntactic complexity": 0.112,
+      "Question type pattern": 0.098,
+      "Research area": 0.091,
+      "Number of constraint types": 0.087,
+      "Presence of named entities": 0.065,
+      "Word count": 0.048,
+      "Temporal reference type": 0.044
+    },
+    "feature_interactions": [
+      {
+        "features": [
+          "Technical term specificity level",
+          "Query intention type"
+        ],
+        "strength": 0.156
+      },
+      {
+        "features": [
+          "Number of distinct technical terms",
+          "Research area"
+        ],
+        "strength": 0.127
+      },
+      {
+        "features": [
+          "Syntactic complexity",
+          "Number of constraint types"
+        ],
+        "strength": 0.119
+      },
+      {
+        "features": [
+          "Question type pattern",
+          "Technical term specificity level"
+        ],
+        "strength": 0.102
+      },
+      {
+        "features": [
+          "Research area",
+          "Temporal reference type"
+        ],
+        "strength": 0.089
+      }
+    ]
+  }
+}

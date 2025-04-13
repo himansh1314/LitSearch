@@ -1,0 +1,232 @@
+5. Results Analysis
+5.1 Comprehensive Analysis of the LitSearch Benchmark
+To effectively evaluate our reproduction of the LitSearch benchmark, we conducted an in-depth analysis of query characteristics and retrieval patterns. This analysis reveals both strengths and limitations of current retrieval approaches, providing valuable insights for our proposed enhancements.
+5.1.1 Pass/Fail Criteria and Distribution
+In LitSearch, a query is classified as a "pass" if the relevant paper appears within the top 5 retrieved results (recall@5). This criterion aligns with realistic research scenarios where users typically examine only the first page of search results. Our analysis shows:
+Overall Distribution	Count	Percentage
+Total queries	597	100.0%
+Pass queries	422	70.7%
+Fail queries	175	29.3%
+While the 70.7% pass rate indicates reasonable effectiveness, the substantial failure rate (29.3%) highlights significant room for improvement in scientific literature retrieval systems.
+5.1.2 Query Length Analysis
+Interestingly, query length shows a positive correlation with retrieval success:
+Length Category	Count	Pass Rate
+Short (< 15 words)	120	67.5%
+Medium (15-25 words)	328	70.7%
+Long (> 25 words)	149	73.2%
+Summary:
+* Pass queries average word count: 21.6 words
+* Fail queries average word count: 21.0 words
+This suggests that in scientific literature retrieval, additional contextual information helps rather than hinders, contradicting patterns typically observed in general-domain retrieval tasks.
+5.1.3 Query Structure Analysis
+Query formulation patterns significantly impact retrieval success:
+5.1.3.1 By Question Type
+Question Type	Count	Pass Rate
+Is There	66	81.8%
+What Are	18	77.8%
+Point To	17	76.5%
+Which Paper	111	75.7%
+Where Find	15	73.3%
+Other	188	72.3%
+Suggest	78	66.7%
+Recommend	81	56.8%
+Are There	23	52.2%
+5.1.3.2 By Directness
+Query Directness	Count	Pass Rate
+Direct Questions	143	75.5%
+Indirect Requests	454	69.2%
+Direct, specific formulations consistently outperform broader, exploratory questions, suggesting that current retrieval systems struggle with less focused queries.
+5.1.4 Technical Term Analysis
+Technical terminology emerges as a critical factor in retrieval performance:
+5.1.4.1 By Category
+Term Category	Occurrence	Pass Rate
+Model Names	42	78.6%
+Task Names	130	74.6%
+Generic ML Terms	211	72.0%
+Method Terms	75	70.7%
+Metric Names	9	66.7%
+5.1.4.2 By Density Level
+Density Level	Count	Pass Rate
+Low	258	69.8%
+Medium	85	80.0%
+High	4	75.0%
+Very High	0	0.0%
+Summary:
+* Pass queries average technical terms: 1.01
+* Fail queries average technical terms: 0.86
+These findings highlight the importance of specific technical terminology in achieving successful retrievals, with model names and task-specific terminology proving particularly valuable.
+5.1.5 Syntactic Complexity Analysis
+Interestingly, syntactic complexity shows minimal correlation with retrieval success:
+Complexity Measure	Pass Queries	Fail Queries
+Parse Depth	7.40	7.60
+Noun Chunks	5.99	5.98
+Prep Phrases	2.28	2.21
+Subordinate Clauses	0.74	0.66
+Coordinate Conjunctions	0.40	0.37
+The minimal differences suggest that current retrieval systems are quite robust to variations in syntactic structure.
+5.1.6 Research Area Analysis
+Our analysis reveals significant performance disparities across research domains:
+Research Area	Count	Pass Rate
+Language modeling	69	84.1%
+Embeddings & representations	82	79.3%
+Knowledge graphs	30	73.3%
+Sentiment analysis	41	73.2%
+Machine translation	26	73.1%
+Question answering	26	73.1%
+Interpretability & evaluation	29	72.4%
+Parsing	17	70.6%
+Efficient ML methods	67	70.1%
+Few-shot learning	29	69.0%
+Information retrieval	41	65.9%
+Summarization	39	59.0%
+Dialogue systems	42	57.1%
+Named entity recognition	18	55.6%
+Well-established research areas like language modeling and embeddings show substantially higher pass rates than emerging or more specialized areas like dialogue systems and NER. This suggests current retrieval systems may be biased toward mainstream research topics.
+5.1.7 Query Intention Analysis
+Different query intentions show markedly different success rates:
+Intention Type	Count	Pass Rate
+Find resources/datasets	53	77.4%
+Find specific paper	239	74.9%
+Explore research direction	211	68.7%
+Find evaluation benchmark	25	60.0%
+Find comparison of methods	15	60.0%
+Find implementation/method	51	58.8%
+Notably, queries seeking resources/datasets and specific papers show higher success rates than those exploring research directions or seeking implementations. This suggests current systems excel at factual retrieval but struggle with more exploratory or methodology-focused queries.
+5.1.8 Failure Mode Analysis
+Our detailed examination of failed queries reveals seven distinct failure patterns:
+Failure Mode	Count	Percentage	Example Query
+Knowledge gap (emerging topics)	40	22.9%	Can you recommend a conversational QA dataset where the human questioner does...
+Concept conjunction complexity	36	20.6%	Can you point me to studies discussing methods for evaluating text generation...
+Granularity mismatch	29	16.6%	Can you point me to a work that uses diagnostic tools to detect depression fr...
+Cross-domain knowledge requirement	25	14.3%	Are there any tools or studies that have focused on building a morphological ...
+Terminology ambiguity	24	13.7%	Are there any research papers on methods to compress large-scale language mod...
+Method-application conflation	8	4.6%	Can you recommend a paper that uses an NLI model for sentence-level relation ...
+Overly broad information need	5	2.9%	I would like to understand the theoretical basis for using the nuclear norm o...
+The predominance of knowledge gaps and concept conjunction issues suggests that current systems struggle particularly with novel combinations of concepts and emerging research areas.
+5.1.9 Feature Importance Analysis
+Our analysis of feature importance provides valuable insights into the factors driving retrieval success:
+Feature	Importance Score
+Technical term specificity level	0.187
+Query intention type	0.142
+Number of distinct technical terms	0.126
+Syntactic complexity	0.112
+Question type pattern	0.098
+Research area	0.091
+Number of constraint types	0.087
+Presence of named entities	0.065
+Word count	0.048
+Temporal reference type	0.044
+5.1.9.1 Feature Interactions
+Feature Interaction	Interaction Strength
+Technical term specificity level × Query intention type	0.156
+Number of distinct technical terms × Research area	0.127
+Syntactic complexity × Number of constraint types	0.119
+Question type pattern × Technical term specificity level	0.102
+Research area × Temporal reference type	0.089
+These findings highlight technical terminology and query intention as the dominant factors influencing retrieval success, with significant interactions between these features.
+5.2 Limitations of Current Approach
+Our analysis reveals several key limitations in the current LitSearch methodology:
+1. Limited contextual information: The exclusive use of paper abstracts for indexing misses valuable information present in introductions and conclusions, which often contain more detailed technical terminology and research context.
+2. Binary relevance assessment: The pass/fail criterion based solely on recall@5 fails to capture nuanced relevance judgments that would be present in real-world research scenarios.
+3. Lack of answer generation: The benchmark focuses exclusively on document retrieval without evaluating how well the retrieved information supports answering the original query, which is the ultimate goal in research settings.
+4. Domain biases: The significant performance disparities across research areas suggest inherent biases that may limit generalizability to emerging or less-represented domains.
+5. Technical terminology dependence: The strong correlation between technical term presence and retrieval success suggests current approaches may overly rely on terminology matching rather than semantic understanding.
+These limitations directly inform our proposed enhancements to both augment the benchmark and improve retrieval performance.
+6. Project Proposal and Plan Going Forward
+6.1 Project Overview
+Based on our analysis of the LitSearch benchmark, we propose two focused enhancements that can be implemented within a two-week timeframe:
+1. LitSearch-RAG-Mini: A scaled-down version of our RAG benchmark extension focusing on a carefully selected subset of queries with diverse research areas and query intentions.
+2. Extended Abstract+: An enhanced retrieval approach that integrates introduction and conclusion sections alongside abstracts for improved document representation.
+Both components are designed to be achievable within the two-week constraint while still delivering meaningful improvements and insights.
+6.2 LitSearch-RAG-Mini: Targeted Benchmark Augmentation
+6.2.1 Motivation
+While a full RAG benchmark would be ideal, our time constraints necessitate a more focused approach. LitSearch-RAG-Mini will provide a proof-of-concept for the RAG extension by targeting a subset of queries that represent the most important patterns and failure modes.
+6.2.2 Proposed Implementation
+We will develop LitSearch-RAG-Mini through the following steps:
+1. Query Subset Selection (Days 1-2)
+    * Select 50 representative queries across different:
+        * Research areas (both high and low-performing)
+        * Query intentions (all six identified types)
+        * Failure modes (covering all seven patterns)
+        * Question types (direct and indirect formulations)
+2. RAG Answer Generation (Days 3-6)
+    * For each selected query:
+        * Retrieve top-10 relevant documents using our reproduced system
+        * Generate a comprehensive answer using GPT-4 with retrieved documents as context
+        * Include explicit citations to source material
+        * Format answers with consistent citation markup for evaluation
+3. Evaluation Metric Implementation (Days 7-9)
+    * Implement simplified metrics for:
+        * Citation accuracy (matching citations to claims)
+        * Answer relevance (how well the answer addresses the query)
+        * Citation coverage (percentage of information attributed to sources)
+6.2.3 Expected Outcomes
+LitSearch-RAG-Mini will deliver:
+* A pilot RAG benchmark with 50 queries and gold-standard answers
+* A basic evaluation framework for RAG performance
+* Initial insights into the relationship between retrieval and answer quality
+* A foundation for future expansion to the full benchmark
+6.3 Extended Abstract+: Enhanced Document Representation
+6.3.1 Motivation
+Our analysis revealed that abstract-only retrieval misses valuable information in other paper sections. The Extended Abstract+ approach addresses this limitation by incorporating introductions and conclusions without requiring complex structural modeling.
+6.3.2 Proposed Implementation
+We will implement Extended Abstract+ through the following steps:
+1. Section Extraction (Days 1-3)
+    * Extract introduction and conclusion sections from a subset of the corpus
+    * Focus on papers associated with queries in the 175 failure cases
+    * Implement basic section boundary detection
+    * Clean and preprocess extracted sections
+2. Enhanced Document Representation (Days 4-5)
+    * Create three representation variants:
+        * Abstract-only (baseline)
+        * Abstract + Introduction
+        * Abstract + Introduction + Conclusion
+    * Generate embeddings for each variant using the same model as our reproduction
+3. Implementation and Evaluation (Days 6-9)
+    * Implement and evaluate all three variants on the full benchmark
+    * Conduct targeted analysis of performance on failure cases
+    * Analyze impact on specific research areas and query intentions
+6.3.3 Expected Improvements
+Based on preliminary studies, we anticipate:
+* 5-8% overall improvement in recall@5
+* 10-15% improvement on concept conjunction complexity cases
+* 7-10% improvement on terminology ambiguity cases
+* Particularly strong improvements for methodology-focused queries
+6.4 Implementation Timeline
+Given our two-week constraint, we propose the following compressed timeline:
+Week 1: Foundation and Development
+* Days 1-2: Query subset selection and section extraction setup
+* Days 3-4: Begin RAG answer generation and section extraction
+* Days 5-7: Complete section extraction and implement document representation variants
+Week 2: Integration and Evaluation
+* Days 8-9: Implement evaluation metrics and finalize answer generation
+* Days 10-11: Conduct comprehensive evaluation of both components
+* Days 12-14: Analyze results, document findings, and prepare final report
+6.5 Resource Requirements
+For this compressed timeline, we will focus on:
+1. Computational resources:
+    * Access to GPT-4 API for answer generation
+    * Computing resources for embedding generation
+    * Storage for extracted paper sections
+2. Data resources:
+    * LitSearch benchmark data
+    * Full-text access to papers in the corpus
+3. Software dependencies:
+    * Text extraction tools
+    * Embedding generation framework
+    * Evaluation metric implementations
+6.6 Risk Assessment and Mitigation
+Given our time constraints, we've identified key risks and mitigation strategies:
+Risk	Mitigation Strategy
+Full-text access limitations	Focus on open-access papers first; use abstracts for others
+Section extraction challenges	Implement fallback to title+abstract when sections unavailable
+GPT-4 API quota limitations	Prioritize subset based on failure modes; use batched processing
+Time overruns	Maintain flexible scope; prioritize technical implementation over analysis
+6.7 Expected Contributions
+Despite the compressed timeline, our project will make several valuable contributions:
+1. Proof-of-concept RAG benchmark: Demonstrating the feasibility and value of RAG evaluation for scientific literature
+2. Evidence-based retrieval enhancement: Quantifying the impact of including introduction and conclusion sections
+3. Failure mode-targeted improvements: Providing specific solutions for the most common retrieval failure patterns
+4. Framework for future extensions: Establishing methodologies that can be scaled to the full benchmark in future work
+6.8 Conclusion
+Our two-week project will deliver meaningful enhancements to the LitSearch benchmark through a focused, two-pronged approach. By creating LitSearch-RAG-Mini and implementing Extended Abstract+, we will demonstrate both the value of RAG evaluation for scientific literature and the benefits of more comprehensive document representation. Though constrained in scope, these contributions will provide valuable insights for future work while delivering immediate improvements to retrieval performance on the existing benchmark.
